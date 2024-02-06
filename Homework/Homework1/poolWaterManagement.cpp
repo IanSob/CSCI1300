@@ -13,6 +13,7 @@ int main()
     float indoorPoolLevel = 12 + (0.1 * hours);
     float outdoorPoolLevel = 18 + (0.3 * hours);
 
-    cout << "Indoor pool level: " + to_string(indoorPoolLevel) + ". Outdoor pool level: " + to_string(outdoorPoolLevel) + ".";
+    cout << "The indoor pool has " + to_string(indoorPoolLevel) + " inches of water, ";
+    cout << "The outdoor pool has  " + to_string(outdoorPoolLevel) + " inches of water.";
    return 0;
 }
